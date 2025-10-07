@@ -9,7 +9,6 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
 The model is composed of the following features:
 
 1. **Real-time pose detection**
-   - Supports both single-worm and multi-worm tracking.
    - Generates pose keypoints and annotated outputs.
    - Saves detection outputs (images/videos) and keypoint data for downstream analysis.
 
@@ -46,9 +45,12 @@ The model is composed of the following features:
 9. **Bacteria/Worm Counting**
    - Uses YOLOv8 object detection for counting in static images.
    - Saves annotated images with detection boxes and count labels.
-   - Exports results (counts per image) as .csv in structured folders (e.g., outputs/counting/run1, run2, etc.).
 
-   
+**Note:** 
+1. All the codes are optimized such that they can be used for a single worm as well as multiple worms.
+2. The codes work on videos as well as images (wherever applicable).
+3. You can keep multiple files in a folder, and give the folder path as input. That will work as well.
+4. All the analysis results will be saved inside the `outputs` folder. For example, if you are running the `pose.ipynb` file on some video, the outputs will be saved in `outputs/pose/run1` folder. If you run this file several times, respective outputs will be saved in `run2`, `run3`, ... inside the main `outputs/pose` folder.
 
 ---
 
