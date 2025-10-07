@@ -2,7 +2,8 @@
 
 This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning model for real-time pose detection of *C. elegans*.
 
----
+
+![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/7216c5253adf0e6c50b1ae928babdbb4e6db5d38/image.png)
 
 ## Model features
 
