@@ -36,5 +36,5 @@ The model is composed of the following features:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
