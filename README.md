@@ -53,4 +53,8 @@ The model is composed of the following features:
 ---
 
 ## Repository Structure
+The repository consists of the following files-
+1. All codes for the analysis of different properties.
+2. Pretrained weights for pose detection, detection of worms and eggs, detecting and counting C. elegans worms, and bacteria counting.
+3. Sample input videos for readers to use and practice.
 
