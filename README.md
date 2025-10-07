@@ -22,13 +22,31 @@ The model is composed of the following features:
 1. All the codes are optimized such that they can be used for a single worm as well as multiple worms.
 2. The codes work on videos as well as images (wherever applicable).
 3. You can keep multiple files in a folder, and give the folder path as input. That will work as well.
-4. All the analysis results will be saved inside the `outputs` folder. For example, if you are running the `pose.ipynb` file on some video, the outputs will be saved in `outputs/pose/run1` folder. If you run this file several times, respective outputs will be saved in `run2`, `run3`, ... inside the main `outputs/pose` folder.
+4. All the analysis results will be saved inside the `outputs` folder. For example, if you are running the `pose.ipynb` file on some video, the outputs will be saved in the `outputs/pose/run1` folder. If you run this file several times, respective outputs will be saved in `run2`, `run3`, ... inside the main `outputs/pose` folder.
 
 ---
 
 ## Repository Structure
 The repository consists of the following files-
-1. All codes for the analysis of different properties.
+1. All the codes for the analysis of different properties.
 2. Pretrained weights for pose detection, detection of worms and eggs, detecting and counting *C. elegans* worms, and bacteria counting.
-3. Sample input videos for readers to use and practice.
+3. Pretrained weights on different YOLO architectures and image sizes.
+4. Sample input videos for readers to use and practice.
+
+## Installation steps
+Here are the steps to install Deep-Pose-Tracker:
+
+1. Clone the repository using
+   
+   ``git clone https://github.com/cebpLab/Deep-Pose-Tracker.git``
+   
+2. Enter the `Deep-Pose-Tracker` directory:
+
+   ``cd Deep-Pose-Tracker``
+
+4. Create environments:
+
+   ``conda create -n deep-pose-tracker``
+   
+   ``pip install untralytics``
 
