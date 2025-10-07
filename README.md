@@ -9,28 +9,44 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
 The model is composed of the following features:
 
 1. **Real-time pose detection**
+   - Supports both single-worm and multi-worm tracking.
+   - Generates pose keypoints and annotated outputs.
+   - Saves detection outputs (images/videos) and keypoint data for downstream analysis.
 
-2. **Quantification of eigenworms**
+3. **Quantification of eigenworms**
+   - Computes eigenworm modes from skeletonized body postures.
+   - Reduces high-dimensional body coordinates into low-dimensional posture representations.
 
-3. **Worm tracking and speed measurement**
-   - Performs multi-object tracking of worms from video files using the YOLOv8 `track` function (ByteTrack).
-   - Generates trajectory data (`positions.csv`) and computes per-worm distance and velocity statistics.
+5. **Worm tracking and speed measurement**
+   - Performs multi-object tracking of worms using the YOLOv8 track function with ByteTrack.
+   - Produces per-worm trajectory data (positions.csv).
+   - Computes metrics like displacement, locomotion speed, and frame-wise motion statistics.
 
-5. **Area measurement**
+6. **Area measurement**
+   - Estimates worm or bacterial colony area using segmentation masks.
+   - Useful for quantifying crowding, clustering, and spatial dynamics.
 
-6. **Orientation of motion**
+8. **Orientation of motion**
    - Uses Kalman filtering to smooth noisy trajectory data.
-   - Computes velocity, angular orientation, and temporal dynamics for each trajectory.
+   - Computes instantaneous speed, angular orientation, and temporal dynamics for each trajectory.
 
-8. **Detecting forward-reverse movement**
+9. **Detecting forward-reverse movement**
+   - Classifies directional motion (forward vs. reverse) based on head-tail orientation dynamics.
+   - Visualizes transitions and frequency of reversals.
+   - Useful for locomotion pattern analysis.
 
-9. **Detecting omega turns**
+11. **Detecting omega turns**
+   - Detects and counts omega turns and delta turns based on body curvature and eigenworm coefficients.
+   - Automatically logs detected events with frame indices and durations.
 
-10. **Multi-class detection and counting**
+13. **Multi-class detection and counting**
+   - Enables detection of multiple biological entities (e.g., worms, eggs, bacteria) in the same frame.
+   - Can be trained with custom YOLOv8 datasets for multi-class recognition.
 
-11. **Bacteria/Worm Counting**
-   - Uses YOLOv8 object detection to count organisms in static images.
-   - Saves annotated images and count data.
+15. **Bacteria/Worm Counting**
+   - Uses YOLOv8 object detection for counting in static images.
+   - Saves annotated images with detection boxes and count labels.
+   - Exports results (counts per image) as .csv in structured folders (e.g., outputs/counting/run1, run2, etc.).
 
    
 
