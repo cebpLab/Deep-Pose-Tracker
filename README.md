@@ -93,6 +93,10 @@ Here is the detailed training procedure. We assume that you have properly instal
 
      ``model.train(data="path/to/data.yaml", epochs=100, save=True, batch=32, val=True, device=[0,1], imgsz=640)``
 
+A snapshot of the training is shown below:
+
+![image alt](sample_outputs/training.png)
+
 That's it. Now let's unpack each of the parameters defined here.
 
 
