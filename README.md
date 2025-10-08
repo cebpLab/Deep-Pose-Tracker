@@ -2,6 +2,15 @@
 
 This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning model for real-time pose detection of *C. elegans*.
 
+<p align="center">
+  <img src="sample_outputs/1x 1 p011.gif" width="500" /><br>
+  <em>Pose detection: Example 1</em>
+</p>
+
+<p align="center">
+  <img src="sample_outputs/multiclass_detection.gif" width="500" /><br>
+  <em>Real-time counting multiple class objects</em>
+</p>
 
 ![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)
 
@@ -82,15 +91,7 @@ Here is the detailed training procedure. We assume that you have properly instal
 That's it. Now let's unpack each of the parameters defined here.
 
 
-<p align="center">
-  <img src="sample_outputs/1x 1 p011.gif" width="500" /><br>
-  <em>Worm 1: Forward motion</em>
-</p>
 
-<p align="center">
-  <img src="assets/demo2.gif" width="250" /><br>
-  <em>Worm 2: Omega turn</em>
-</p>
 
 
 
