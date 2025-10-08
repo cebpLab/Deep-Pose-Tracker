@@ -111,7 +111,7 @@ That's it. Now let's unpack each of the parameters defined here.
 - `device` is used to specify where you want to perform the training. If you are training on a GPU, define `device = 0`. If you are training on multiple GPUs, define `device = [0, 1, 2, 3]` (depending upon the number of GPUs available). It is highly recommended to train on GPUs only. Make sure that `CUDA` and compatible `PyTorch` are properly installed, which are necessary for GPU training.
 - `imgsz` defines the image size on which you want to train the network. 
 
-In point 2, we defined a model, which is basically a YOLO architecture for pose detection with pretrained weights. Here, we have chosen `yolo8m-pose.pt` as we are interested in training YOLO on posture data. If you are working with a detection problem, you would have to choose 'yolo8m.pt'. Here you can choose `s`, `m`, `l`, whatever is necessary for your task.
+In point 2, we defined a model, which is basically a YOLO architecture for pose detection with pretrained weights. Here, we have chosen `yolo8m-pose.pt` as we are interested in training YOLO on posture data. If you are working with a detection problem, you would have to choose 'yolo8m.pt'. Here you can choose any architecture (small, medium, large, *etc*.), according to the requirements.
 
 
 
