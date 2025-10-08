@@ -2,6 +2,11 @@
 
 This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning model for real-time pose detection of *C. elegans*.
 
+ <img src="sample_outputs/multiclass_detection.gif" width="500" />  <img src="sample_outputs/omega_turns.gif" width="500" />  <img src="sample_outputs/pose_1.gif" width="500" />
+ <img src="sample_outputs/pose_2.gif" width="500" />  <img src="sample_outputs/reversals.gif" width="500" />  <img src="sample_outputs/tracking.gif" width="500" />
+ <img src="sample_outputs/omega_turns.gif" width="500" /> 
+
+<!--
 <p align="center">
   <img src="sample_outputs/1x 1 p011.gif" width="500" /><br>
   <em>Pose detection: Example 1</em>
@@ -11,8 +16,9 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
   <img src="sample_outputs/multiclass_detection.gif" width="500" /><br>
   <em>Real-time counting multiple class objects</em>
 </p>
+-->
 
-![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)
+<!-- ![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)  -->
 
 ## Model features
 
