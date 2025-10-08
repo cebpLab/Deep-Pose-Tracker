@@ -74,7 +74,7 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
 
 
 ## Training model
-The training process is the same as the standard training procedure in [YOLO](https://docs.ultralytics.com/modes/train/). In this model, we have used [YOLOv8](https://docs.ultralytics.com/models/yolov8/) for all the analysis. The training was performed on a custom dataset with labelled images of *C. elegans*. Here are the following details that we followed during training:
+The training process is the same as the standard [training](https://docs.ultralytics.com/modes/train/) procedure in YOLO. In this model, we have used [YOLOv8](https://docs.ultralytics.com/models/yolov8/) for all the analysis. The training was performed on a custom dataset with labelled images of *C. elegans*. Here are the following details that we followed during training:
 - A total of 3455 images were taken for training different YOLOv8 architectures.
 - We trained different YOLOv8 architectures (`medium`, `large`, and `extra`) for `pose` detection.
 - Training was performed on different input image sizes, which are $640 \times 640$, $832 \times 832$ and $1024 \times 1024$.
