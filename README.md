@@ -25,7 +25,6 @@ The model is composed of the following features:
 3. You can keep multiple files in a folder, and give the folder path as input. That will work as well.
 4. All the analysis results will be saved inside the `outputs` folder. For example, if you are running the `pose.ipynb` file on some video, the outputs will be saved in the `outputs/pose/run1` folder. If you run this file several times, respective outputs will be saved in `run2`, `run3`, ... inside the main `outputs/pose` folder.
 
----
 
 ## Repository Structure
 The repository consists of the following files-
@@ -55,6 +54,9 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
    ``pip install untralytics``
 
 4. Once the dependencies are installed, you are ready to use the code.
+
+
+## Annotations
 
 
 ## Training model
