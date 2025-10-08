@@ -65,7 +65,7 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
 
    ``conda activate deep-pose-tracker``
    
-   ``pip install untralytics``
+   ``pip install ultralytics``
 
 4. Once the dependencies are installed, you are ready to use the code.
 
