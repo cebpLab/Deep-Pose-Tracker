@@ -82,6 +82,18 @@ Here is the detailed training procedure. We assume that you have properly instal
 That's it. Now let's unpack each of the parameters defined here.
 
 
+<p align="center">
+  <img src="assets/demo1.gif" width="250" /><br>
+  <em>Worm 1: Forward motion</em>
+</p>
+
+<p align="center">
+  <img src="assets/demo2.gif" width="250" /><br>
+  <em>Worm 2: Omega turn</em>
+</p>
+
+
+
 
 
 
