@@ -34,6 +34,7 @@ The repository consists of the following files-
 3. Pretrained weights on different YOLO architectures and image sizes.
 4. Sample input videos for readers to use and practice.
 
+
 ## Installation steps
 Here are the steps to install Deep-Pose-Tracker. We highly recommend installing the dependencies in a separate environment. Here we have shown the steps using `conda`. One can use `python3` as well for creating the environments.
 
@@ -47,11 +48,48 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
 
 3. Create an environment where you install the dependencies.
 
-   ```conda create -n deep-pose-tracker```
+   ``conda create -n deep-pose-tracker``
 
-   ```conda activate deep-pose-tracker```
+   ``conda activate deep-pose-tracker``
    
-   ```pip install untralytics```
+   ``pip install untralytics``
 
-4. Once the dependencies are installed, you are ready to use the code. 
+4. Once the dependencies are installed, you are ready to use the code.
+
+
+## Training model
+The training process is the same as the standard training procedure in [YOLO](https://docs.ultralytics.com/modes/train/). In this model, we have used [YOLOv8](https://docs.ultralytics.com/models/yolov8/) for all the analysis. The training was performed on a custom dataset with labelled images of *C. elegans*. Here are the following details that we followed during training:
+- A total of 3455 images were taken for training different YOLOv8 architectures.
+- We trained different YOLOv8 architectures (`medium`, `large`, and `extra`) for `pose` detection.
+- Training was performed on different input image sizes, which are $640 \times 640$, $832 \times 832$ and $1024 \times 1024$.
+
+Here is the detailed training procedure. We assume that you have properly installed `untralytics`.
+
+1. Import YOLO.
+
+      ``from ultralytics import YOLO``
+
+2. Define the model on which you want to perform the training. Here is the list of different YOLOv8 [models](https://docs.ultralytics.com/tasks/pose/#models) for pose detection.
+
+      ``model = YOLO("yolo11m-pose.pt")``
+
+3. Once the model is defined, you can now start the training.
+
+     ``model.train(data="path/to/data.yaml", epochs=100, save=True, batch=32, val=True, device=[0,1], imgsz=640)``
+
+That's it. Now let's unpack each of the parameters defined here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
