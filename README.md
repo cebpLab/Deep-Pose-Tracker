@@ -83,7 +83,7 @@ That's it. Now let's unpack each of the parameters defined here.
 
 
 <p align="center">
-  <img src="assets/demo1.gif" width="250" /><br>
+  <img src="sample_outputs/1x 1 p011.gif" width="500" /><br>
   <em>Worm 1: Forward motion</em>
 </p>
 
