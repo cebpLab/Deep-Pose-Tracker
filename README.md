@@ -106,7 +106,7 @@ That's it. Now let's unpack each of the parameters defined here.
 - The `save` flag is used to save the training outputs. 
 
 - `batch` is an important parameter which defines the number of images on which we want the model to be trained at once. This factor depends on the hardware configuration (GPU memory), network architecture and input image size.
-- `val` is set to be `True` to ensure the model is performing well on the validation dataset, and does not show any overfitting.
+- `val` is set to be `True` to ensure the model is performing well on the validation dataset, and does not overfit.
 - `device` is used to specify where you want to perform the training. If you are training on a GPU, define `device = 0`. If you are training on multiple GPUs, define `device = [0, 1, 2, 3]` (depending upon the number of GPUs available). It is highly recommended to train on GPUs only. Make sure that `CUDA` and compatible `PyTorch` are properly installed, which are necessary for GPU training.
 - `imgsz` defines the image size on which you want to train the network. 
 
