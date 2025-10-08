@@ -2,21 +2,20 @@
 
 This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning model for real-time pose detection of *C. elegans*.
 
-<img src="sample_outputs/pose_3.gif" height="200" /> <img src="sample_outputs/multiclass_detection.gif" height="200" />  <img src="sample_outputs/omega_turns.gif" height="200" />  <img src="sample_outputs/pose_1.gif" height="200" />
- <img src="sample_outputs/pose_2.gif" height="200" />  <img src="sample_outputs/reversals.gif" height="200" />  
- <img src="sample_outputs/tracking.gif" height="200" />
-
 <!--
-<p align="center">
-  <img src="sample_outputs/1x 1 p011.gif" width="500" /><br>
-  <em>Pose detection: Example 1</em>
-</p>
-
-<p align="center">
-  <img src="sample_outputs/multiclass_detection.gif" width="500" /><br>
-  <em>Real-time counting multiple class objects</em>
-</p>
+<img src="sample_outputs/pose_3.gif" height="200" />
+<img src="sample_outputs/omega_turns.gif" height="200" />    
+<img src="sample_outputs/multiclass_detection.gif" height="200" />   
+<img src="sample_outputs/pose_1.gif" height="200" />
+<img src="sample_outputs/pose_2.gif" height="200" />  
+<img src="sample_outputs/reversals.gif" height="200" />  
+<img src="sample_outputs/tracking.gif" height="200" />
 -->
+
+<div align="center"> <!-- Row 1 --> <img src="sample_outputs/pose_1.gif" height="220" /> <img src="sample_outputs/tracking.gif" height="220" /> <img src="sample_outputs/pose_2.gif" height="220" /> 
+
+<!-- Row 2 --> <img src="sample_outputs/multiclass_detection.gif" height="180" /> <img src="sample_outputs/reversals.gif" height="180" /> <img src="sample_outputs/pose_3.gif" height="180" /> <img src="sample_outputs/omega_turns.gif" height="180" /> </div>
+
 
 <!-- ![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)  -->
 
