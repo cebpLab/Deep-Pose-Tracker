@@ -27,7 +27,7 @@ The model is composed of the following features:
 2. Quantification of eigenworms
 3. Worm tracking and speed measurement
 4. Area measurement
-5. Orientation of motion
+5. Orientation of motion detection
 6. Detecting forward-reverse movement
 7. Detecting omega turns
 8. Multi-class detection and counting
@@ -114,6 +114,9 @@ That's it. Now let's unpack each of the parameters defined here.
 In point 2, we defined a model, which is basically a YOLO architecture for pose detection with pretrained weights. Here, we have chosen `yolo8m-pose.pt` as we are interested in training YOLO on posture data. If you are working with a detection problem, you would have to choose 'yolo8m.pt'. Here you can choose any architecture (small, medium, large, *etc*.), according to the requirements.
 
 #### Some important tips for training
+- Resize the images (by cropping) before annotations. In Roboflow, you can resize images after annotations, but try to avoid squeezing the images to fit into the given dimension. It would distort the spatial features in the training, causing poor performance during predictions.
+- Resize images into square shapes, because the YOLO architectures perform best when the inputs are given in the form of a square matrix.
+- Training images should contain as much variability as possible in the data. It helps the model to learn about all the differences that can appear in an image. If you are working with pose detection, take images with complex structures as well as normal sinusoidal structures. It helps in predicting complex shapes and enhances accuracy.
 
 
 ## Deployments
