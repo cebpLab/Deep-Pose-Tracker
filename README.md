@@ -113,6 +113,8 @@ That's it. Now let's unpack each of the parameters defined here.
 
 In point 2, we defined a model, which is basically a YOLO architecture for pose detection with pretrained weights. Here, we have chosen `yolo8m-pose.pt` as we are interested in training YOLO on posture data. If you are working with a detection problem, you would have to choose 'yolo8m.pt'. Here you can choose any architecture (small, medium, large, *etc*.), according to the requirements.
 
+#### Some important tips for training
+
 
 ## Deployments
 
