@@ -116,11 +116,12 @@ In point 2, we defined a model, which is basically a YOLO architecture for pose 
 #### Some important tips for training
 - Resize the images (by cropping) before annotations. In Roboflow, you can resize images after annotations, but try to avoid squeezing the images to fit into the given dimension. It would distort the spatial features in the training, causing poor performance during predictions.
 - Resize images into square shapes, because the YOLO architectures perform best when the inputs are given in the form of a square matrix.
-- Training images should contain as much variability as possible in the data. It helps the model to learn about all the differences that can appear in an image. If you are working with pose detection, take images with complex structures as well as normal sinusoidal structures. It helps in predicting complex shapes and enhances accuracy.
+- Training images should contain as much variability as possible in the data. It helps the model to learn about all the differences that can appear in an image. If you are working with pose detection, take images with complex structures as well as normal sinusoidal shapes. It helps in predicting complex shapes and enhances accuracy.
+- Use augmentations to increase the number of training images by various transformations. It also increases the variability in the images, which makes the model more robust.
 
 
 ## Deployments
-
+This is the most important step, where you use different algorithms on real experimental data (videos or images), focusing on various assays. Here we show how to use the code and how to read the outputs. We will use the pose detection code `pose.ipynb` for demonstration. The same follows for all the other codes.
 
 
 ## Acknowledgements
