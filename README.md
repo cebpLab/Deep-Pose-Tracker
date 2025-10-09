@@ -124,7 +124,8 @@ In point 2, we defined a model, which is basically a YOLO architecture for pose 
 
 
 ## Acknowledgements
-
+- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), such a wonderful package with all the features, and making it all open-source.
+- [Roboflow](https://roboflow.com/) for annotations support.
 
 
 
