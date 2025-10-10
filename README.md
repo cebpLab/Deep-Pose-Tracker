@@ -120,7 +120,7 @@ In point 2, we defined a model, which is basically a YOLO architecture for pose 
 
 #### Where are the training outputs saved?
 
-The training outputs are by default saved in the `runs` folder. Every time you run the training, a new folder with the name `train1`, `train2`, ... is created, which contains all the training outputs, including weights (inside the `weights` folder). The `weights` folder contains two weight files: `best.pt` (corresponding to the best performance on validation data) and `last.pt` (corresponding to the performance on the last training epoch). We have used the `best.pt` file, and renamed it to `yolov8x-832.pt` according to the network architecture and training image size, for convenience.
+The training outputs are by default saved in the `runs` folder. Every time you run the training, a new folder with the name `train1`, `train2`, ... is created, which contains all the training outputs, including weights (inside the `weights` folder). The `weights` folder contains two weight files: `best.pt` (corresponding to the best performance on validation data) and `last.pt` (corresponding to the performance on the last training epoch). We have used the `best.pt` file and renamed it to `yolov8x-832.pt` according to the network architecture and training image size, for convenience.
 
 ## Deployments
 This is the most important step, where you use different algorithms on real experimental data (videos or images), focusing on various assays. Here we show how to use the code and how to read the outputs. We will use the pose detection code `pose.ipynb` for demonstration. The same follows for all the other codes.
@@ -133,7 +133,21 @@ The first few lines of the code are shown here. Once the libraries are imported,
    
    ``model = YOLO("path/to/yolov8x-832.pt")``
 
-   which is the YOLO architecture itself, with trained weights on our own custom data for posture detection. Here we have changed the name 
+   which is the YOLO architecture itself, with trained weights on our own custom data for posture detection of *C. elegans*. The weights can be found in the `weights` folder. Choose the appropriate weight for your work. Here we are working with the pose detection, which is why we chose the pose weights, which are in the `weights/pose` folder.
+
+2. Define the `source` on which you want to run the program. You can define the input in several ways.
+
+   - You can run on a video file. Videos with `.avi`, `.mp4`, and `.mkv` are supported.
+
+     ``source = path/to/video.mp4``
+
+   - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, and `.png`.
+
+     ``source = path/to/image.jpg``
+
+   - If you want to run it on multiple input files in a single run, just provide the folder path which contains all the files. It may contain images as well as videos.
+
+     ``source = path/to/the/folder/``
 
 
 ## Acknowledgements
