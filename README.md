@@ -42,10 +42,9 @@ The model is composed of the following features:
 
 ## Repository Structure
 The repository consists of the following files-
-1. All the codes for the analysis of different properties.
+1. All the codes for the analysis of different behavioural features.
 2. Pretrained weights for pose detection, detection of worms and eggs, detecting and counting *C. elegans* worms, and bacteria counting.
-3. Pretrained weights on different YOLO architectures and image sizes.
-4. Sample input videos for readers to use and practice.
+3. Sample input videos for practice.
 
 
 ## Installation steps
