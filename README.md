@@ -149,6 +149,8 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
      ``source = path/to/the/folder/``
 
+With these changes, you can now run the program. The outputs will be saved in the `outputs` folder with the `pose` subfolder in it, which is defined in the `base_out_dir` variable. You can change the folder names, but that is optional. 
+
 
 ## Acknowledgements
 - [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), such a wonderful package with all the features, and making it all open-source.
