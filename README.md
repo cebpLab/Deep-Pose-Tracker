@@ -137,11 +137,11 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
 2. Define the `source` on which you want to run the program. You can define the input in several ways.
 
-   - You can run on a video file. Videos with `.avi`, `.mp4`, and `.mkv` are supported.
+   - You can run on a video file. Videos with `.avi`, `.mp4`, `.mov` and `.mkv` are supported.
 
      ``source = path/to/video.mp4``
 
-   - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, and `.png`.
+   - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, `.png` and `and`.
 
      ``source = path/to/image.jpg``
 
