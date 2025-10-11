@@ -141,7 +141,7 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
      ``source = path/to/video.mp4``
 
-   - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, `.png` and `and`.
+   - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, `.png` and `.bmp`.
 
      ``source = path/to/image.jpg``
 
