@@ -152,19 +152,18 @@ The first few lines of the code are shown here. Once the libraries are imported,
 With these changes, you can now run the program. The outputs will be saved in the `outputs` folder with the `pose` subfolder in it, which is defined in the `base_out_dir` variable. You can change the folder names, but that is optional. 
 
 
+## Support
+1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning the issue.
+2. If you want to use DPT, but are having difficulties in installing the packages or understanding the workflow (annotation, training and prediction), please do not hesitate to reach out to us. We will be happy to help you.
+3. If you have labelled data, but want hardware support to train the model, we will be happy to do that for you.
+
+
 ## Acknowledgements
 - [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), such a wonderful package with all the features, and making it all open-source.
 - [Roboflow](https://roboflow.com/) for annotations support.
 
 
-
-
-
-
-
-
-
-
-
+## Contact us
+Contact us through this email address: rati@iiserb.ac.in
 
 
