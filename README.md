@@ -139,15 +139,15 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
    - You can run on a video file. Videos with `.avi`, `.mp4`, `.mov` and `.mkv` are supported.
 
-     ``source = /path/to/video.mp4``
+     ``source = "/path/to/video.mp4"``
 
    - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, `.png` and `.bmp`.
 
-     ``source = /path/to/image.jpg``
+     ``source = "/path/to/image.jpg"``
 
    - If you want to run it on multiple input files in a single run, just provide the folder path which contains all the files. It may contain images as well as videos.
 
-     ``source = /path/to/the/folder/``
+     ``source = "/path/to/the/folder/"``
 
 With these changes, you can now run the program. The outputs will be saved in the `outputs` folder with the `pose` subfolder in it, which is defined in the `base_out_dir` variable. You can change the folder names, but that is optional. 
 
