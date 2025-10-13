@@ -91,7 +91,7 @@ Here is the detailed training procedure. We assume that you have properly instal
 
 3. Once the model is defined, you can now start the training.
 
-     ``model.train(data="path/to/data.yaml", epochs=100, save=True, batch=32, val=True, device=[0,1], imgsz=640)``
+     ``model.train(data="/path/to/data.yaml", epochs=100, save=True, batch=32, val=True, device=[0,1], imgsz=640)``
 
 A snapshot of the training is shown below:
 
@@ -131,7 +131,7 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
 1. Let's first define the model
    
-   ``model = YOLO("path/to/yolov8x-832.pt")``
+   ``model = YOLO("/path/to/yolov8x-832.pt")``
 
    which is the YOLO architecture itself, with trained weights on our own custom data for posture detection of *C. elegans*. The weights can be found in the `weights` folder. Choose the appropriate weight for your work. Here we are working with the pose detection, which is why we chose the pose weights, which are in the `weights/pose` folder.
 
@@ -139,15 +139,15 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
    - You can run on a video file. Videos with `.avi`, `.mp4`, `.mov` and `.mkv` are supported.
 
-     ``source = path/to/video.mp4``
+     ``source = /path/to/video.mp4``
 
    - You can run on an image file. The following image formats are supported: `.jpg`, `.jpeg`, `.png` and `.bmp`.
 
-     ``source = path/to/image.jpg``
+     ``source = /path/to/image.jpg``
 
    - If you want to run it on multiple input files in a single run, just provide the folder path which contains all the files. It may contain images as well as videos.
 
-     ``source = path/to/the/folder/``
+     ``source = /path/to/the/folder/``
 
 With these changes, you can now run the program. The outputs will be saved in the `outputs` folder with the `pose` subfolder in it, which is defined in the `base_out_dir` variable. You can change the folder names, but that is optional. 
 
