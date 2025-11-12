@@ -153,7 +153,7 @@ With these changes, you can now run the program. The outputs will be saved in th
 
 
 ## Support
-1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning the issue.
+1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning it.
 2. If you want to use DPT, but are having difficulties in installing the packages or understanding the workflow (annotation, training and prediction), please do not hesitate to reach out to us. We will be happy to help you.
 3. If you have labelled data, but want hardware support to train the model, we will be happy to do that for you.
 
