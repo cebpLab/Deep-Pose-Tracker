@@ -151,6 +151,8 @@ The first few lines of the code are shown here. Once the libraries are imported,
 
 With these changes, you can now run the program. The outputs will be saved in the `outputs` folder with the `pose` subfolder in it, which is defined in the `base_out_dir` variable. You can change the folder names, but that is optional. 
 
+### Some important notes
+Some of the codes may need parameter adjustment to get the correct measures. For example, in the speed measurement code, we have a total time of 30 seconds (duration of our videos). Similarly, in omega turns, we have used $60^{\circ}$ as the threshold angle, which can be different for different worms or experimental conditions.
 
 ## Support
 1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning it.
