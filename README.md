@@ -94,7 +94,7 @@ Here is the detailed training procedure. We assume that you have properly instal
 
 A snapshot of the training is shown below:
 
-![image alt](sample_outputs/training.png)
+![image alt](sample_images/training.png)
 
 That's it. Now let's unpack each of the parameters defined here.
 
@@ -124,7 +124,7 @@ The training outputs are by default saved in the `runs` folder. Every time you r
 ## Deployments
 This is the most important step, where you use different algorithms on real experimental data (videos or images), focusing on various assays. Here we show how to use the code and how to read the outputs. We will use the pose detection code `pose.ipynb` for demonstration. The same follows for all the other codes.
 
-![image alt](sample_outputs/deployment_tutorial.png)
+![image alt](sample_images/deployment_tutorial.png)
 
 The first few lines of the code are shown here. Once the libraries are imported, we do the following:
 
