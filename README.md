@@ -58,14 +58,13 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
    ``cd Deep-Pose-Tracker``
 
 3. Create an environment where you install the dependencies.
-
-   ``conda create -n deep-pose-tracker``
-
-   ``conda activate deep-pose-tracker``
    
    ``pip install ultralytics``
 
 4. Once the dependencies are installed, you are ready to use the code.
+
+### Note:
+The weight files can be found in this [Google drive](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) link.
 
 
 ## Annotations
