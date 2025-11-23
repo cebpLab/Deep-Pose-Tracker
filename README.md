@@ -31,7 +31,6 @@ The model is composed of the following features:
 6. Detecting forward-reverse movement
 7. Detecting omega turns
 8. Multi-class detection and counting
-9. Bacteria/Worm Counting
 
 **Note:** 
 1. All the codes are optimized such that they can be used for a single worm as well as multiple worms.
