@@ -14,7 +14,7 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
 
 <div align="center"> <!-- Row 1 --> <img src="sample_images/pose_1.gif" height="220" /> <img src="sample_images/tracking.gif" height="220" /> <img src="sample_images/pose_2.gif" height="200" /> 
 
-<!-- Row 2 --> <img src="sample_outputs/multiclass_detection.gif" height="200" /> <img src="sample_outputs/reversals.gif" height="200" /> <img src="sample_outputs/pose_3.gif" height="180" /> <img src="sample_outputs/omega_turns.gif" height="180" /> </div>
+<!-- Row 2 --> <img src="sample_images/multiclass_detection.gif" height="200" /> <img src="sample_images/reversals.gif" height="200" /> <img src="sample_images/pose_3.gif" height="180" /> <img src="sample_images/omega_turns.gif" height="180" /> </div>
 
 
 <!-- ![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)  -->
