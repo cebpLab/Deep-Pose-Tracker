@@ -162,7 +162,7 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 - [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), such a wonderful package with all the features, and making it all open-source.
 - [Roboflow](https://roboflow.com/) for annotations support.
 
-##Cite this
+## Cite this
 Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural analysis of <i>Caenorhabditis elegans </i>
 
 ## Contact us
