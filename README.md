@@ -72,7 +72,7 @@ Annotations are performed in [Roboflow](https://roboflow.com/). It is suitable f
 
 
 ### Training dataset
-The complete training datasets for "pose detection" and "worms and eggs detection" are made available in this Google Drive [link](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=drive_link). Training images and labels are both provided.
+The complete training datasets for "pose detection" and "worms and eggs detection" are made available in this Google Drive [link](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=sharing). Training images and labels are both provided.
 
 
 ## Training model
