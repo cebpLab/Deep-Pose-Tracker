@@ -71,8 +71,29 @@ The weight files can be found in this [Google drive](https://drive.google.com/dr
 Annotations are performed in [Roboflow](https://roboflow.com/). It is suitable for labelling images to train models for object detection, pose detection, image segmentation, and classification tasks. But there are other platforms like [CVAT](https://www.cvat.ai/) where you can label your images. 
 
 
-### Training dataset
+## Training dataset
 The complete training datasets for "pose detection" and "worms and eggs detection" are made available in this Google Drive [link](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=sharing). Training images and labels are both provided.
+
+
+### Dataset Description
+
+The datasets are divided into three subsets:
+
+- Training set: used for model training
+- Validation set: used for evaluation
+- Test set: performance check
+
+#### Split Details
+
+Deep-Pose-Tracker:
+- train: 7383 images
+- valid: 400 images
+- test: 157 images
+
+Worms and eggs detection dataset:
+- train: 963 images
+- valid: 49 images
+- test: 39 images
 
 
 ## Training model
