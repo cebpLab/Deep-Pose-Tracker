@@ -81,7 +81,7 @@ The datasets are divided into three subsets:
 
 - Training set: used for model training
 - Validation set: used for evaluation
-- Test set: performance check
+- Test set: used exclusively for final evaluations, like tracking and pose accuracies.
 
 #### Split Details
 
@@ -94,6 +94,21 @@ Worms and eggs detection dataset:
 - train: 963 images
 - valid: 49 images
 - test: 39 images
+
+
+## Annotation Format
+
+Deep-Pose-Tracker dataset:
+- Each annotation contains:
+  class id, x, y, w, h, keypoints 
+- Keypoints are stored as (x, y, v), where the visibility flag v is used as \
+    v = 0: invisible/out-of-frame \
+    v = 1: occluded \
+    v = 2: visible
+
+Worms and eggs detection dataset:
+- Each annotation contains:
+  class id, x, y, w, h
 
 
 ## Training model
