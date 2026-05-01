@@ -99,15 +99,16 @@ Worms and eggs detection dataset:
 ## Annotation Format
 
 Deep-Pose-Tracker dataset:
-- Each annotation contains:
+- Each annotation contains: \
   class id, x, y, w, h, keypoints 
-- Keypoints are stored as (x, y, v), where the visibility flag v is used as \
+- keypoints are stored as (x, y, v), where the visibility flag v is used as \
     v = 0: invisible/out-of-frame \
     v = 1: occluded \
     v = 2: visible
+- total 11 keypoints
 
 Worms and eggs detection dataset:
-- Each annotation contains:
+- Each annotation contains: \
   class id, x, y, w, h
 
 
