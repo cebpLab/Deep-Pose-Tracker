@@ -71,6 +71,10 @@ The weight files can be found in this [Google drive](https://drive.google.com/dr
 Annotations are performed in [Roboflow](https://roboflow.com/). It is suitable for labelling images to train models for object detection, pose detection, image segmentation, and classification tasks. But there are other platforms like [CVAT](https://www.cvat.ai/) where you can label your images. 
 
 
+### Training dataset
+The complete training datasets for "pose detection" and "worms and eggs detection" are made available in this Google Drive [link](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=drive_link). Training images and labels are both provided.
+
+
 ## Training model
 The training process is the same as the standard [training](https://docs.ultralytics.com/modes/train/) procedure of YOLO. In this model, we have used [YOLOv8](https://docs.ultralytics.com/models/yolov8/) for all the analysis. The training was performed on a custom dataset with labelled images of *C. elegans*. Here are the following details that we followed during training:
 - A total of 3455 images were taken for training different YOLOv8 architectures.
