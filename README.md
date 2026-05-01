@@ -194,7 +194,9 @@ With these changes, you can now run the program. The outputs will be saved in th
 
 
 ## Evaluation of tracking accuracy
-The tracking accuracies are measured to check model performance when deployed in crowded environments. Several tracking metrics, such as MOTA, MOTP and IDF1, are reported, which are calculated by comparing the model predictions with the manually annotated ground truths, by using the MOTChallenge algorithm. Here, we provide the evaluation code and other necessary datasets for reproducing these values in this [link](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing). 
+The tracking metrics are evaluated to test model performance in crowded environments. Standard tracking metrics, such as MOTA, MOTP and IDF1, are reported. These metrics are calculated by comparing the model-predicted trajectories with the manually annotated ground truth data using the MOTChallenge algorithm, implemented through the motmetrics library. 
+
+Ground truth and predicted bounding boxes are matched for each frame of the video using the intersection-over-union (IoU). An IoU threshold of 0.5 is used, below which predictions are ignored from evaluation. The assignment of one-to-one matching between the predictions and ground truths is performed using the Hungarian algorithm as implemented in motmetrics. The evaluation code and the necessary datasets are provided [here](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing), ensuring reproducibility. 
 
 ### Some important notes
 Some of the codes may need parameter adjustment to get the correct measures. For example, in the speed measurement code, we have a total time of 30 seconds (duration of our videos). Similarly, in omega turns, we have used $60^{\circ}$ as the threshold angle, which can be different for different worms or experimental conditions.
