@@ -102,10 +102,12 @@ Deep-Pose-Tracker dataset:
 - Each annotation contains: \
   class id, x, y, w, h, keypoints 
 - keypoints are stored as (x, y, v), where the visibility flag v is used as \
-    v = 0: invisible/out-of-frame \
-    v = 1: occluded \
-    v = 2: visible
+    v = 0: keypoint not labelled (out-of-frame or deleted) \
+    v = 1: keypoint labelled but occluded \
+    v = 2: keypoint visible
 - total 11 keypoints
+  
+During evaluation, keypoints with  v = 1 and 2 are considered. Keypoints with v = 0 are excluded from evaluation.
 
 Worms and eggs detection dataset:
 - Each annotation contains: \
