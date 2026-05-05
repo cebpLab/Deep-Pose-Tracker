@@ -202,9 +202,9 @@ Ground truth and predicted bounding boxes are matched for each frame of the vide
 Some of the codes may need parameter adjustment to get the correct measures. For example, in the speed measurement code, we have a total time of 30 seconds (duration of our videos). Similarly, in omega turns, we have used $60^{\circ}$ as the threshold angle, which can be different for different worms or experimental conditions.
 
 ## Support
-1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning it.
+1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning them.
 2. If you want to use DPT, but are having difficulties in installing the packages or understanding the workflow (annotation, training and prediction), please do not hesitate to reach out to us. We will be happy to help you.
-3. If you have labelled data, but want hardware support to train the model, we will be happy to do that for you.
+<!-- 3. If you have labelled data, but want hardware support to train the model, we will be happy to do that for you. -->
 
 
 ## Acknowledgements
