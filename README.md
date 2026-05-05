@@ -65,7 +65,7 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
 
 4. Verify installation
 
-   ``yolo help``
+   ``yolo help`` \
    ``python -c "import motmetrics; print('motmetrics OK')"``
 
 ### Note:
