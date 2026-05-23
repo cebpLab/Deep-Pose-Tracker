@@ -46,6 +46,11 @@ The repository consists of the following files-
 3. Sample input videos for practice.
 
 
+## Note:
+1. The weight files can be found in this [Google drive](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) link. Download the model(s) you need and place it (them) in the `weights` folder. Mention the folder path when using it for prediction.
+2. Datasets for optimizing omega turn and reversal detection codes can be found in this [Google Drive](https://drive.google.com/drive/folders/10cN7WRZLnAEInswC6_pGCZIZFjyO4RBv?usp=sharing) folder.
+
+
 ## Installation steps
 Here are the steps to install Deep-Pose-Tracker. We highly recommend installing the dependencies in a separate environment. Here we have shown the steps using `conda`. One can use `python3` as well for creating the environments.
 
@@ -67,9 +72,6 @@ Here are the steps to install Deep-Pose-Tracker. We highly recommend installing 
 
    ``yolo help`` \
    ``python -c "import motmetrics; print('motmetrics OK')"``
-
-### Note:
-The weight files can be found in this [Google drive](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) link. Download the model(s) you need and place it (them) in the `weights` folder. Mention the folder path when using it for prediction.
 
 
 ## Annotations
