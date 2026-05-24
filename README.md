@@ -223,6 +223,14 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 ## Cite this
 Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1).
 
+@article{Saha2025DPT,
+  author = {Debasish Saha and Shivam Chaudhary and Dhyey Vyas and Anindya Ghosh Roy and Rati Sharma},
+  title = {Deep-Pose-Tracker: a unified model for behavioural studies of {Caenorhabditis elegans}},
+  journal = {bioRxiv},
+  year = {2025},
+  doi = {10.1101/2025.11.23.689997}
+}
+
 ## Contact us
 Contact us through this email address: rati@iiserb.ac.in
 
