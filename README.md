@@ -222,9 +222,7 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 
 ## Cite this
 <!-- Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1). -->
-
-<h2>Cite this</h2>
-
+If you find this work useful, please cite us with the following:
 <div style="
     background:#f5f5f5;
     border:1px solid #ddd;
@@ -240,7 +238,6 @@ Some of the codes may need parameter adjustment to get the correct measures. For
     padding:5px 10px;
     cursor:pointer;
 ">
-Copy
 </button>
 
 <pre id="bibtex" style="margin:0; white-space:pre-wrap;">
@@ -255,14 +252,6 @@ Copy
 
 </div>
 
-<script>
-function copyBibtex() {
-    const text = document.getElementById("bibtex").innerText;
-    navigator.clipboard.writeText(text);
-
-    alert("BibTeX copied!");
-}
-</script>
 
 ## Contact us
 Contact us through this email address: rati@iiserb.ac.in
