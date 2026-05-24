@@ -217,8 +217,8 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 
 
 ## Acknowledgements
-- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), such a wonderful package with all the features, and making it all open-source.
-- [Roboflow](https://roboflow.com/) for annotations support.
+- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), a state-of-the-art computer vision model, making it all open-source.
+- [Roboflow](https://roboflow.com/) and [CVAT](https://www.cvat.ai/) for annotations facility.
 
 ## Cite this
 <!-- Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1). -->
