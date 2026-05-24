@@ -221,15 +221,48 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 - [Roboflow](https://roboflow.com/) for annotations support.
 
 ## Cite this
-Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1).
+<!-- Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1). -->
 
+<h2>Cite this</h2>
+
+<div style="
+    background:#f5f5f5;
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:8px;
+    position:relative;
+">
+
+<button onclick="copyBibtex()" style="
+    position:absolute;
+    top:10px;
+    right:10px;
+    padding:5px 10px;
+    cursor:pointer;
+">
+Copy
+</button>
+
+<pre id="bibtex" style="margin:0; white-space:pre-wrap;">
 @article{Saha2025DPT,
-  author = {Debasish Saha and Shivam Chaudhary and Dhyey Vyas and Anindya Ghosh Roy and Rati Sharma},
-  title = {Deep-Pose-Tracker: a unified model for behavioural studies of {Caenorhabditis elegans}},
+  author  = {Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma},
+  title   = {Deep-Pose-Tracker: a unified model for behavioural analyses of {Caenorhabditis elegans}},
   journal = {bioRxiv},
-  year = {2025},
-  doi = {10.1101/2025.11.23.689997}
+  year    = {2025},
+  doi     = {https://doi.org/10.1101/2025.11.23.689997}
 }
+</pre>
+
+</div>
+
+<script>
+function copyBibtex() {
+    const text = document.getElementById("bibtex").innerText;
+    navigator.clipboard.writeText(text);
+
+    alert("BibTeX copied!");
+}
+</script>
 
 ## Contact us
 Contact us through this email address: rati@iiserb.ac.in
