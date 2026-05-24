@@ -46,10 +46,11 @@ The repository consists of the following files-
 3. Sample input videos for practice.
 
 
-## Note
-1. The weight files can be found in this Google Drive [folder](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing). Download the model(s) you need and place it (them) in the `weights` folder. Mention the folder path when using it for prediction.
-2. Evaluation code and datasets are available in this Google Drive [folder](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing).
-3. Datasets for optimizing omega turn and reversal detection codes can be found in this Google Drive [folder](https://drive.google.com/drive/folders/10cN7WRZLnAEInswC6_pGCZIZFjyO4RBv?usp=sharing). Download these files and copy them to the videos folder.
+## Important Links
+1. [Training dataset](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=sharing) for *pose estimation* and *worms and eggs detection*.
+2. [Weight files](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) for *pose estimation* and *worms and eggs detection*.
+3. [Tracking metrics](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing) for evaluating MOTA, IDF1, *etc*.
+4. [Optimization datasets](https://drive.google.com/drive/folders/10cN7WRZLnAEInswC6_pGCZIZFjyO4RBv?usp=sharing) for omega turn and reversal detection.
 
 
 ## Installation steps
