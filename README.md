@@ -49,10 +49,11 @@ The repository consists of the following files-
 ## Important Links
 1. [Pose detection](https://drive.google.com/drive/folders/15q9nzsPEaV9KlkzCwJFaTdMuFrQviGX3?usp=sharing) sample examples.
 2. [Training dataset](https://drive.google.com/drive/folders/1Pc6U4-j09g7r7iSmUjc2XC4AXS1i_N6U?usp=sharing) for *pose estimation* and *worms and eggs detection*.
-3. [Weight files](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) for *pose estimation* and *worms and eggs detection*.
-4. [Tracking metrics](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing) for evaluating MOTA, IDF1, *etc*.
-5. [Optimization datasets](https://drive.google.com/drive/folders/10cN7WRZLnAEInswC6_pGCZIZFjyO4RBv?usp=sharing) for omega turn and reversal detection.
-6. [Eigenworm dataset](https://drive.google.com/drive/folders/1pMhO9ieUpDSa4jaKXjWMCiVqWlnr2EP1?usp=sharing).
+3. [Spreadsheet](https://docs.google.com/spreadsheets/d/1nIJoPMGl-PqyCVj39jKdRkCR5autmXSttdw9TKIjPfc/edit?usp=sharing) containing video-level splitting of the training dataset for pose detection.
+4. [Weight files](https://drive.google.com/drive/folders/1ch3JN_IY-rmQ4s9Vm4pVGKK-ZEkv61Bl?usp=sharing) for *pose estimation* and *worms and eggs detection*.
+5. [Tracking metrics](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing) for evaluating MOTA, IDF1, *etc*.
+6. [Optimization datasets](https://drive.google.com/drive/folders/10cN7WRZLnAEInswC6_pGCZIZFjyO4RBv?usp=sharing) for omega turn and reversal detection.
+7. [Eigenworm dataset](https://drive.google.com/drive/folders/1pMhO9ieUpDSa4jaKXjWMCiVqWlnr2EP1?usp=sharing).
 
 
 ## Installation steps
