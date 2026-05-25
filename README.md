@@ -225,7 +225,7 @@ Some of the codes may need parameter adjustment to get the correct measures. For
 
 ## Cite this
 <!-- Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1). -->
-If you find this work useful, please cite us with the following:
+If you find this work useful, please cite it with the following:
 <div style="
     background:#f5f5f5;
     border:1px solid #ddd;
@@ -244,12 +244,16 @@ If you find this work useful, please cite us with the following:
 </button>
 
 <pre id="bibtex" style="margin:0; white-space:pre-wrap;">
-@article{Saha2025DPT,
-  author  = {Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma},
-  title   = {Deep-Pose-Tracker: a unified model for behavioural analyses of {Caenorhabditis elegans}},
-  journal = {bioRxiv},
-  year    = {2025},
-  doi     = {https://doi.org/10.1101/2025.11.23.689997}
+@article {Saha2026DPT,
+	author = {Saha, Debasish and Chaudhary, Shivam and Vyas, Dhyey and Ghosh-Roy, Anindya and Sharma, Rati},
+	title = {Deep-Pose-Tracker: a unified model for behavioural analysis of Caenorhabditis elegans},
+	elocation-id = {2025.11.23.689997},
+	year = {2026},
+	doi = {10.1101/2025.11.23.689997},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2026/05/24/2025.11.23.689997},
+	eprint = {https://www.biorxiv.org/content/early/2026/05/24/2025.11.23.689997.full.pdf},
+	journal = {bioRxiv}
 }
 </pre>
 
