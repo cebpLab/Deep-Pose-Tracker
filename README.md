@@ -1,6 +1,8 @@
+<!--
 # Deep-Pose-Tracker
 
 This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning model for real-time pose detection of *C. elegans*.
+-->
 
 <!--
 <img src="sample_outputs/pose_3.gif" height="200" />
@@ -12,12 +14,85 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
 <img src="sample_outputs/tracking.gif" height="200" />
 -->
 
+
+<div align="center" style="padding:20px; border-radius:15px; background:linear-gradient(135deg,#0f172a,#1e293b); color:white;">
+
+<h1 style="margin-bottom:10px;">
+Deep-Pose-Tracker (DPT)
+</h1>
+
+<p style="font-size:18px; max-width:800px;">
+A unified YOLO-based framework for multi-animal pose detection, tracking,
+and behavioural analysis of <i>Caenorhabditis elegans</i>.
+</p>
+
+
+
+
 <div align="center"> <!-- Row 1 --> <img src="sample_images/pose_1.gif" height="220" /> <img src="sample_images/tracking.gif" height="220" /> <img src="sample_images/pose_2.gif" height="200" /> 
 
 <!-- Row 2 --> <img src="sample_images/multiclass_detection.gif" height="200" /> <img src="sample_images/reversals.gif" height="200" /> <img src="sample_images/pose_3.gif" height="180" /> <img src="sample_images/omega_turns.gif" height="180" /> </div>
 
 
 <!-- ![image alt](https://github.com/cebpLab/Deep-Pose-Tracker/blob/c7a0b8b9b948c293c008b6cad273611e9e1725cd/image.png)  -->
+
+
+
+
+<br>
+
+<!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2">
+<img src="https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=read-the-docs" />
+</a>
+
+<a href="https://doi.org/10.1101/2025.11.23.689997">
+<img src="https://img.shields.io/badge/DOI-10.1101%2F2025.11.23.689997-orange?style=for-the-badge" />
+</a> -->
+
+<br><br>
+
+<div style="
+background:#111827;
+padding:18px;
+border-radius:12px;
+max-width:850px;
+margin:auto;
+border:1px solid #334155;
+">
+
+<h2 style="margin-top:0;">📄 Preprint</h2>
+
+<p style="font-size:17px; line-height:1.6;">
+<b>Deep-Pose-Tracker: a unified model for behavioural analysis of 
+<i>Caenorhabditis elegans</i></b>
+</p>
+
+<p>
+Saha D., Chaudhary S., Vyas D., Roy A.G., Sharma R.
+</p>
+
+<a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2"
+style="
+display:inline-block;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+">
+Read the Article
+</a>
+
+</div>
+
+<br>
+
+
+
+</div>
+
+
 
 ## Model features
 
