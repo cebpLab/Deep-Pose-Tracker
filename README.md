@@ -39,8 +39,6 @@ and behavioural analysis of <i>Caenorhabditis elegans</i>.
 
 
 
-<br>
-
 <!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2">
 <img src="https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=read-the-docs" />
 </a>
@@ -49,7 +47,7 @@ and behavioural analysis of <i>Caenorhabditis elegans</i>.
 <img src="https://img.shields.io/badge/DOI-10.1101%2F2025.11.23.689997-orange?style=for-the-badge" />
 </a> -->
 
-<br><br>
+<br>
 
 <div style="
 background:#111827;
@@ -71,7 +69,7 @@ border:1px solid #334155;
 Saha D., Chaudhary S., Vyas D., Roy A.G., Sharma R.
 </p>
 
-<a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2"
+<!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2"
 style="
 display:inline-block;
 padding:10px 20px;
@@ -82,6 +80,11 @@ border-radius:8px;
 font-weight:bold;
 ">
 Read the Article
+</a> -->
+
+
+<a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2">
+<img src="https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=read-the-docs" />
 </a>
 
 </div>
