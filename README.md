@@ -23,14 +23,14 @@ This repository contains scripts for Deep-Pose-Tracker (DPT), a deep learning mo
 
 The model is composed of the following features:
 
-1. Real-time pose detection
+1. Pose detection of *C. elegans* with head-tail identification
 2. Quantification of eigenworms
-3. Worm tracking and speed measurement
-4. Area measurement
-5. Orientation of motion detection
-6. Detecting forward-reverse movement
-7. Detecting omega turns
-8. Multi-class detection and counting
+3. Worm tracking and speed (average and instantaneous) measurement
+4. Spatial exploration or trajectory extent measurement
+5. Orientation of motion detection 
+6. Identifying forward-reverse movement
+7. Detection of omega turns
+8. Multi-class (worms and eggs) detection and counting
 
 **Note:** 
 1. All the codes are optimized such that they can be used for a single worm as well as multiple worms.
