@@ -284,12 +284,16 @@ With these changes, you can now run the program. The outputs will be saved in th
 
 
 ## Evaluation of tracking accuracy
-The tracking metrics are evaluated to test model performance in crowded environments. Standard tracking metrics, such as MOTA, MOTP and IDF1, are reported. These metrics are calculated by comparing the model-predicted trajectories with the manually annotated ground truth data using the MOTChallenge algorithm, implemented through the motmetrics library. 
+The tracking metrics are evaluated to test the tracking performance of the model in overlapping conditions. Standard tracking metrics, such as MOTA, MOTP and IDF1, are measured. These metrics are calculated by comparing the model predictions with the manually annotated ground truths using the MOTChallenge algorithm, implemented through the motmetrics library. 
 
 Ground truth and predicted bounding boxes are matched for each frame of the video using the intersection-over-union (IoU). An IoU threshold of 0.5 is used, below which predictions are ignored from evaluation. The assignment of one-to-one matching between the predictions and ground truths is performed using the Hungarian algorithm as implemented in motmetrics. The evaluation code and the necessary datasets are provided [here](https://drive.google.com/drive/folders/1es_7pOL9x9ipI3vDHsXvjmSvo8zcaouS?usp=sharing), ensuring reproducibility. 
 
-### Some important notes
-Some of the codes may need parameter adjustment to get the correct measures. For example, in the speed measurement code, we have a total time of 30 seconds (duration of our videos). Similarly, in omega turns, we have used $60^{\circ}$ as the threshold angle, which can be different for different worms or experimental conditions.
+## Some important notes
+Some of the codes may need optimization before using them to get better accuracy. For example,
+1. The omega turns detection algorithm contains two adjustable parameters: proximity distance and bending angle, which need to be tuned on a ground truth dataset.
+2. The script for forward-reversal detection has three parameters: the angle threshold ($H$), body index ($\alpha$), and buffer, which should be optimized on a ground truth dataset before using.
+
+This is necessary because these parameters are not fixed and can vary from one experimental condition to another.
 
 ## Support
 1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning them.
