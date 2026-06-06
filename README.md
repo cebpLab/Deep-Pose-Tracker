@@ -302,7 +302,7 @@ This is necessary because these parameters are not fixed and can vary from one e
 
 
 ## Acknowledgements
-- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/), a state-of-the-art computer vision model, making it all open-source.
+- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/models/yolo26#ultralytics-yolo26), a state-of-the-art computer vision model, making it all open-source.
 - [Roboflow](https://roboflow.com/) and [CVAT](https://www.cvat.ai/) for annotations facility.
 
 ## Cite this
