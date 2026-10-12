@@ -326,16 +326,14 @@ If you find this work useful, please cite it with the following:
 </button>
 
 <pre id="bibtex" style="margin:0; white-space:pre-wrap;">
-@article {Saha2026DPT,
-	author = {Saha, Debasish and Chaudhary, Shivam and Vyas, Dhyey and Ghosh-Roy, Anindya and Sharma, Rati},
-	title = {Deep-Pose-Tracker: a unified model for behavioural analysis of Caenorhabditis elegans},
-	elocation-id = {2025.11.23.689997},
-	year = {2026},
-	doi = {10.1101/2025.11.23.689997},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2026/05/24/2025.11.23.689997},
-	eprint = {https://www.biorxiv.org/content/early/2026/05/24/2025.11.23.689997.full.pdf},
-	journal = {bioRxiv}
+@article{saha2026deep,
+  title={Deep-Pose-Tracker: an automated behavioural analysis framework for Caenorhabditis elegans},
+  author={Saha, Debasish and Chaudhary, Shivam and Vyas, Dhyey and Ghosh-Roy, Anindya and Sharma, Rati},
+  journal={Scientific Reports},
+  volume={16},
+  number={27796},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
 </pre>
 
