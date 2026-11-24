@@ -295,17 +295,18 @@ Some of the codes may need optimization before using them to get better accuracy
 
 This is necessary because these parameters are not fixed and can vary from one experimental condition to another.
 
-## Support
+## Community Support
 1. If you are using DPT and find any issue that needs to be solved, please feel free to email us mentioning them.
 2. If you want to use DPT, but are having difficulties in installing the packages or understanding the workflow (annotation, training and prediction), please do not hesitate to reach out to us. We will be happy to help you.
 <!-- 3. If you have labelled data, but want hardware support to train the model, we will be happy to do that for you. -->
 
 
 ## Acknowledgements
-- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/models/yolo26#ultralytics-yolo26), a state-of-the-art computer vision model, making it all open-source.
-- [Roboflow](https://roboflow.com/) and [CVAT](https://www.cvat.ai/) for annotations facility.
+We acknowledge
+- [Ultralytics](https://www.ultralytics.com/) for [YOLO](https://docs.ultralytics.com/models/yolo26#ultralytics-yolo26), an open-source and state-of-the-art computer vision model.
+- [Roboflow](https://roboflow.com/) and [CVAT](https://www.cvat.ai/) for annotations facility. 
 
-## Cite this
+## Cite our work
 <!-- Debasish Saha, Shivam Chaudhary, Dhyey Vyas, Anindya Ghosh-Roy and Rati Sharma. Deep-Pose-Tracker: a unified model for behavioural studies of <i>Caenorhabditis elegans</i>, [biorxiv](https://www.biorxiv.org/content/10.1101/2025.11.23.689997v1). -->
 If you find this work useful, please cite it with the following:
 <div style="
