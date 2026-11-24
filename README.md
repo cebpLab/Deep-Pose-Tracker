@@ -39,7 +39,7 @@ and behavioural analysis of <i>Caenorhabditis elegans</i>.
 
 
 
-<!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2">
+<!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v3">
 <img src="https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=read-the-docs" />
 </a>
 
