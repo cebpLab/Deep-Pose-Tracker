@@ -58,7 +58,7 @@ margin:auto;
 border:1px solid #334155;
 ">
 
-<h2 style="margin-top:0;">📄 Preprint</h2>
+<h2 style="margin-top:0;">📄 Journal article</h2>
 
 <p style="font-size:17px; line-height:1.6;">
 <b>Deep-Pose-Tracker: a unified model for behavioural analysis of 
@@ -69,7 +69,7 @@ border:1px solid #334155;
 Saha D., Chaudhary S., Vyas D., Roy A.G., Sharma R.
 </p>
 
-<!-- <a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2"
+<!-- <a href="https://doi.org/10.1038/s41598-026-63642-5"
 style="
 display:inline-block;
 padding:10px 20px;
@@ -83,7 +83,7 @@ Read the Article
 </a> -->
 
 
-<a href="https://www.biorxiv.org/content/10.1101/2025.11.23.689997v2">
+<a href="https://doi.org/10.1038/s41598-026-63642-5"> 
 <img src="https://img.shields.io/badge/bioRxiv-Preprint-blue?style=for-the-badge&logo=read-the-docs" />
 </a>
 
