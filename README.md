@@ -61,8 +61,7 @@ border:1px solid #334155;
 <h2 style="margin-top:0;">📄 Journal article</h2>
 
 <p style="font-size:17px; line-height:1.6;">
-<b>Deep-Pose-Tracker: a unified model for behavioural analysis of 
-<i>Caenorhabditis elegans</i></b>
+<b>Deep-Pose-Tracker: an automated behavioural analysis framework for <i>Caenorhabditis elegans</i></b>
 </p>
 
 <p>
